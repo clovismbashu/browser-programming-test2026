@@ -1,44 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>My Portfolio</title>
 </head>
-<body>
 
+<body>
+  <!-- Skip link for accessibility -->
+  <a href="#main">Skip to content</a>
+
+  <!-- Header -->
   <header>
-    <h1>Your Name</h1>
-    <p>Short description / role</p>
+    <h1>Mbashu Clovis</h1>
+    <p>
+      Web Development Student · Creative Technology · Based in the city of
+      Kuopio
+    </p>
+    <p>
+      I am a student learning web development with a focus on semantic HTML,
+      accessibility, and clean structure.
+    </p>
   </header>
 
+  <!-- Navigation (optional but valid semantic element) -->
   <nav>
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#interests">Areas of Interest</a></li>
+      <li><a href="#footer">Contact</a></li>
     </ul>
   </nav>
 
+  <!-- Main content -->
   <main id="main">
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Write a short introduction.</p>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+
+      <figure>
+        <img src="images/project1.png" alt="Screenshot of my first web project" width="300" height="100" />
+        <figcaption>
+          Project One – An Entrepreneurial website in Kuopio
+          <a href="https://www.nses.fi/">Live Project</a>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/project2.png" alt="Screenshot of my second project" width="300" height="100" />
+        <figcaption>
+          Project Two – A school website
+          <a href="https://www.lauratebusinesscollege.com/">Live Project</a>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Project presentation video" allowfullscreen>
+        </iframe>
+        <figcaption>
+          Short video presentation of one of my projects
+        </figcaption>
+      </figure>
     </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <p>Projects will be added later.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email or links.</p>
+    <!-- Areas of Interest -->
+    <section id="interests">
+      <h2>Areas of Interest</h2>
+      <ul>
+        <li>Fullstack Web Development</li>
+        <li>Embedded Programming</li>
+        <li>Data Engineering</li>
+        <li>Cybersecurity</li>
+      </ul>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 Your Name</p>
+  <!-- Footer -->
+  <footer id="footer">
+    <h2>Contact & Social Links</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/clovismbashu">GitHub</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/clovis-mbashu-238170329/">LinkedIn</a>
+      </li>
+    </ul>
+    <p>&copy; 2026 Mbashu Clovis</p>
   </footer>
-
 </body>
+
 </html>
